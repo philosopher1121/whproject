@@ -9,9 +9,7 @@
         @include('basic.nav')
 
         <h1>Hello, world!</h1>
-        <span style="font-size: 3em; color: Tomato;">
-            <i class="fas fa-camera"></i>
-          </span>
+
 
         @section('sidebar')
                 This is the master sidebar.
@@ -19,6 +17,9 @@
 
         <div class="container">
             @yield('content')
+            <span style="font-size: 3em; color: Tomato;">
+                <i class="fas fa-camera"></i>
+            </span>
         </div>
 
 
