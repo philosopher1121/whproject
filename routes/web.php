@@ -12,17 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
+Route::resource('/work', 'WorkController');
+Route::resource('/occupationalinjury', 'InjuryController');
+Route::resource('/caraccident', 'CaraccidentController');
+Route::resource('/renthouse', 'RenthouseController');
+Route::get('/legal', 'LegalController@index');
+Route::get('/cooperation','CooperationController@index');
+Route::get('/intention', 'IntentionController@index');
+Route::get('/aboutme','AboutmeController@index');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

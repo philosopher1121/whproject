@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('index')
 
-@section('title', 'Page Title')
+@section('title', '黑白工')
 
 @section('sidebar')
     @parent
