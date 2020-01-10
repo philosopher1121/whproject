@@ -14,7 +14,7 @@ class RenthouseController extends Controller
      */
     public function index()
     {
-        //
+        return view('frontend.renthouse.index');
     }
 
     /**
