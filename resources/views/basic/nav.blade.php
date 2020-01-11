@@ -13,22 +13,22 @@
             <ul class="navbar-nav mr-auto">
                 <!-- active表示當前頁面 -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{{ route('home')}}">首頁 <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">黑白工</a>
+                    <a class="nav-link" href="{{ route('work.index')}}">黑白工</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">工傷</a>
+                        <a class="nav-link" href="{{ route('occupationalinjury.index')}}">工傷</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">車禍</a>
+                        <a class="nav-link" href="{{ route('caraccident.index')}}">車禍</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">租屋</a>
+                        <a class="nav-link" href="{{ route('renthouse.index')}}">租屋</a>
                 </li>
                 <li class="nav-item">
-                        <a class="nav-link" href="#">法律資源</a>
+                        <a class="nav-link" href="{{ route('legal')}}">法律資源</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">

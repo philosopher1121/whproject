@@ -13,18 +13,18 @@
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 Route::resource('/work', 'WorkController');
 Route::resource('/occupationalinjury', 'InjuryController');
 Route::resource('/caraccident', 'CaraccidentController');
 Route::resource('/renthouse', 'RenthouseController');
-Route::get('/legal', 'LegalController@index');
-Route::get('/cooperation','CooperationController@index');
-Route::get('/intention', 'IntentionController@index');
-Route::get('/aboutme','AboutmeController@index');
+Route::get('/legal', 'LegalController@index')->name('legal');
+Route::get('/cooperation','CooperationController@index')->name('cooperation');
+Route::get('/intention', 'IntentionController@index')->name('intention');
+Route::get('/aboutme','AboutmeController@index')->name('aboutme');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
 

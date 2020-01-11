@@ -1,8 +1,8 @@
         <!-- Footer -->
-        <footer class="page-footer text-muted bg-secondary">
+        <footer class="page-footer text-light" >
                 <div class="container-fluid text-center text-md-left">
                     <!-- Grid row -->
-                    <div class="row">
+                    <div class="footer-content row">
 
                         <!-- Grid column -->
                         <div class="col-md-6 mt-md-0 mt-3">
@@ -67,8 +67,7 @@
                     <!-- Grid row -->
                 </div>
             <!-- Copyright -->
-            <div class="footer-copyright text-center text-light bg-dark">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/education/bootstrap/">XXXXXXXXXXXX</a>  by invulnerableartist 2020-2021
+            <div class="footer-copyright text-center text-light bg-dark">Copyright© 2020-2021 by Invulnerableartist
             </div>
             <!-- Copyright -->
         </footer>
